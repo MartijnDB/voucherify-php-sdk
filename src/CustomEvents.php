@@ -50,7 +50,4 @@ class CustomEvents
 
         return $this->client->post("/events", $params);
     }
-
 }
-
-
