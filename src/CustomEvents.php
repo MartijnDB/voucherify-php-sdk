@@ -31,7 +31,7 @@ class CustomEvents
 
     public function track($event, $customer, $metadata = null, $referral = null, $loyalty = null)
     {
-        $params  = [
+        $params = [
             'event'    => $event,
             'customer' => $customer,
         ];
